@@ -113,6 +113,7 @@ const Tab = () => {
                     </View>
 
             </View>
+            
                 {events.map((event: any) => <Post postObject={{ ...event }} key={event.content} />)}
             </ScrollView>
         </View>
